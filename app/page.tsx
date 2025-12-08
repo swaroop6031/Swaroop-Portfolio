@@ -92,8 +92,42 @@ export default function Home() {
             ))}
           </div>
 
-          {/* Right side: contact + mobile menu */}
-          <div className="flex items-center gap-2">
+          {/* Right side: socials + contact + mobile menu */}
+          <div className="flex items-center gap-3">
+            {/* GitHub icon */}
+            <a
+              href="https://github.com/swaroop6031"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden rounded-full border border-slate-700 p-2 text-slate-300 hover:border-emerald-400 hover:text-emerald-300 transition-colors md:inline-flex"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.58.11.79-.25.79-.55 0-.27-.01-1.15-.02-2.09-3.22.7-3.9-1.39-3.9-1.39-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.21 1.78 1.21 1.04 1.78 2.73 1.27 3.4.97.11-.76.41-1.27.75-1.56-2.57-.29-5.27-1.29-5.27-5.73 0-1.27.46-2.31 1.21-3.13-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.19a10.9 10.9 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.5 3.17-1.19 3.17-1.19.63 1.59.23 2.76.11 3.05.75.82 1.2 1.86 1.2 3.13 0 4.45-2.71 5.44-5.29 5.73.42.36.8 1.09.8 2.2 0 1.59-.02 2.87-.02 3.26 0 .3.21.66.8.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" />
+              </svg>
+            </a>
+
+            {/* LinkedIn icon */}
+            <a
+              href="https://www.linkedin.com/in/swaroop-mudholkar-23a4b0292"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden rounded-full border border-slate-700 p-2 text-slate-300 hover:border-emerald-400 hover:text-emerald-300 transition-colors md:inline-flex"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.7 4.9-2.7 5.2 0 6.1 3.4 6.1 7.8V24h-5V16c0-1.9 0-4.3-2.6-4.3-2.6 0-3 2-3 4.1V24h-5V8z" />
+              </svg>
+            </a>
+
             <a
               href="#contact"
               className="hidden rounded-full bg-gradient-to-r from-emerald-500 to-sky-500 px-4 py-1 text-xs font-medium 
@@ -101,6 +135,8 @@ export default function Home() {
             >
               Contact me
             </a>
+
+            {/* Mobile menu button */}
             <button
               type="button"
               className="inline-flex items-center justify-center rounded-full border border-slate-700 p-2 md:hidden"
@@ -138,6 +174,39 @@ export default function Home() {
                 {link.label}
               </a>
             ))}
+            {/* Mobile social links */}
+            <a
+              href="https://github.com/swaroop6031"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-full border border-slate-700 bg-slate-900/80 px-3 py-1 hover:border-emerald-400 hover:text-emerald-300 transition-colors"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.58.11.79-.25.79-.55 0-.27-.01-1.15-.02-2.09-3.22.7-3.9-1.39-3.9-1.39-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.21 1.78 1.21 1.04 1.78 2.73 1.27 3.4.97.11-.76.41-1.27.75-1.56-2.57-.29-5.27-1.29-5.27-5.73 0-1.27.46-2.31 1.21-3.13-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.19a10.9 10.9 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.5 3.17-1.19 3.17-1.19.63 1.59.23 2.76.11 3.05.75.82 1.2 1.86 1.2 3.13 0 4.45-2.71 5.44-5.29 5.73.42.36.8 1.09.8 2.2 0 1.59-.02 2.87-.02 3.26 0 .3.21.66.8.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" />
+              </svg>
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/swaroop-mudholkar-23a4b029"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-full border border-slate-700 bg-slate-900/80 px-3 py-1 hover:border-emerald-400 hover:text-emerald-300 transition-colors"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.7 4.9-2.7 5.2 0 6.1 3.4 6.1 7.8V24h-5V16c0-1.9 0-4.3-2.6-4.3-2.6 0-3 2-3 4.1V24h-5V8z" />
+              </svg>
+              LinkedIn
+            </a>
           </div>
         )}
       </header>
@@ -277,7 +346,7 @@ export default function Home() {
               {
                 title: "Intern – Cotmac Electronics Pvt. Ltd.",
                 subtitle: "Bhosari MIDC, Pune",
-                time: "4 Weeks",
+                time: "4 Weeks (June 2025 - July 2025)",
                 desc: "Gained exposure to industrial electronics, panels and automation workflows. Understood how engineering concepts are applied in real projects and improved documentation, observation and practical problem-solving skills.",
               },
               {
@@ -289,7 +358,7 @@ export default function Home() {
               {
                 title: "Documentation Lead – PCCOE EnTC Internship Cell",
                 subtitle: "PCCOE, Nigdi, Pune",
-                time: "2024–2025",
+                time: "2025–2026",
                 desc: "Maintained clear, structured documentation for internship-related activities and coordinated with team members, sharpening communication and organization skills.",
               },
               {
@@ -585,11 +654,11 @@ export default function Home() {
             <div className="space-y-2 text-sm text-slate-300">
               <p>
                 <span className="font-semibold text-slate-100">Email:</span>{" "}
-                swaroop@example.com
+                swaroopmudholkar@gmail.com
               </p>
               <p>
                 <span className="font-semibold text-slate-100">Phone:</span>{" "}
-                +91-XXXXXXXX
+                +91-8830157488
               </p>
               <p>
                 <span className="font-semibold text-slate-100">Location:</span>{" "}
@@ -598,10 +667,37 @@ export default function Home() {
             </div>
           </div>
         </section>
+        
 
-        {/* FOOTER */}
-        <footer className="border-t border-slate-800 pt-6 text-sm text-slate-500">
-          © {new Date().getFullYear()} Portfolio by Swaroop Mudholkar
+        {/* FOOTER with social icons */}
+        <footer className="mt-10 border-t border-slate-800 pt-6 text-sm text-slate-500">
+          <div className="flex flex-col items-center justify-between gap-3 md:flex-row">
+            <p>© {new Date().getFullYear()} Portfolio by Swaroop Mudholkar</p>
+            <div className="flex items-center gap-4 text-xs">
+              <a
+                href="mailto:swaroopmudholkar@gmail.com"
+                className="hover:text-emerald-300 transition-colors"
+              >
+                Email
+              </a>
+              <a
+                href="https://github.com/swaroop6031"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1 hover:text-emerald-300 transition-colors"
+              >
+                <span>GitHub</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/swaroop-mudholkar-23a4b029"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1 hover:text-emerald-300 transition-colors"
+              >
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
         </footer>
       </div>
 
