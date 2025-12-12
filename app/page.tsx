@@ -689,7 +689,7 @@ export default function Home() {
                 <span>GitHub</span>
               </a>
               <a
-                href="https://www.linkedin.com/in/swaroop-mudholkar-23a4b029"
+                href="https://www.linkedin.com/in/swaroop-mudholkar-23a4b0292"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1 hover:text-emerald-300 transition-colors"
