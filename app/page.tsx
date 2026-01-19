@@ -233,7 +233,7 @@ export default function Home() {
                 Electronics Engineering student &amp; Embedded / IoT enthusiast
               </span>{" "}
               who enjoys turning ideas into working prototypes. From
-              microcontrollers and sensors to clean, functional frontends – I like
+              microcontrollers and sensors to clean, functional frontends - I like
               owning the full flow of a project.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -307,7 +307,7 @@ export default function Home() {
             <p className="mt-3 text-slate-300 leading-relaxed">
               I&apos;m currently pursuing{" "}
               <span className="text-slate-100">
-                B.Tech in Electronics and Telecommunication Engineering (2023–2027)
+                B.Tech in Electronics and Telecommunication Engineering (2023-2027)
               </span>{" "}
               at{" "}
               <span className="text-slate-100">
@@ -344,28 +344,28 @@ export default function Home() {
           <div className="grid gap-4 md:grid-cols-2 md:auto-rows-fr">
             {[
               {
-                title: "Intern – Cotmac Electronics Pvt. Ltd.",
+                title: "Intern - Cotmac Electronics Pvt. Ltd.",
                 subtitle: "Bhosari MIDC, Pune",
                 time: "4 Weeks (June 2025 - July 2025)",
                 desc: "Gained exposure to industrial electronics, panels and automation workflows. Understood how engineering concepts are applied in real projects and improved documentation, observation and practical problem-solving skills.",
               },
               {
-                title: "Participant – Smart India Hackathon (SIH) 2024",
-                subtitle: "National Level Hackathon",
-                time: "2024",
-                desc: "Worked in a team to design and propose solutions for a real-world problem statement, focusing on innovation, feasibility and implementation strategy.",
-              },
-              {
-                title: "Documentation Lead – PCCOE EnTC Internship Cell",
+                title: "Documentation Lead - PCCOE EnTC Internship Cell",
                 subtitle: "PCCOE, Nigdi, Pune",
-                time: "2025–2026",
+                time: "2025-2026",
                 desc: "Maintained clear, structured documentation for internship-related activities and coordinated with team members, sharpening communication and organization skills.",
               },
               {
                 title: "Project Competitions & Robotics Events",
                 subtitle: "IETE Project Competition & E-Yantra 2025",
-                time: "2024–2025",
+                time: "2024-2025",
                 desc: "Presented hardware and embedded projects at national-level platforms, strengthening my interest in robotics, embedded systems and innovation.",
+              },
+              {
+                title: "Participant - Smart India Hackathon (SIH) 2024",
+                subtitle: "National Level Hackathon",
+                time: "2024",
+                desc: "Worked in a team to design and propose solutions for a real-world problem statement, focusing on innovation, feasibility and implementation strategy.",
               },
             ].map((item) => (
               <div
@@ -384,7 +384,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SKILLS – new design */}
+        {/* SKILLS - new design */}
         <section id="skills" className="space-y-4 scroll-mt-28">
           <h2 className="text-2xl font-semibold">Skills</h2>
 
@@ -551,12 +551,12 @@ export default function Home() {
           <div className="space-y-3">
             {[
               {
-                time: "2023 – 2027",
+                time: "2023 - 2027",
                 title: "B.Tech in Electronics and Telecommunication Engineering",
                 place: "Pimpri Chinchwad College of Engineering, Nigdi, Pune",
               },
               {
-                time: "2021 – 2023",
+                time: "2021 - 2023",
                 title: "12th Science",
                 place:
                   "S. B. Patil College of Science and Commerce, Ravet, Pune",
