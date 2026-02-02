@@ -113,7 +113,7 @@ export default function Home() {
 
             {/* LinkedIn icon */}
             <a
-              href="https://www.linkedin.com/in/swaroop-mudholkar-23a4b0292"
+              href="https://www.linkedin.com/in/swaroop-mudholkar-entc6031a"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden rounded-full border border-slate-700 p-2 text-slate-300 hover:border-emerald-400 hover:text-emerald-300 transition-colors md:inline-flex"
@@ -192,7 +192,7 @@ export default function Home() {
               GitHub
             </a>
             <a
-              href="https://www.linkedin.com/in/swaroop-mudholkar-23a4b029"
+              href="https://www.linkedin.com/in/swaroop-mudholkar-entc6031a"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 rounded-full border border-slate-700 bg-slate-900/80 px-3 py-1 hover:border-emerald-400 hover:text-emerald-300 transition-colors"
@@ -689,7 +689,7 @@ export default function Home() {
                 <span>GitHub</span>
               </a>
               <a
-                href="https://www.linkedin.com/in/swaroop-mudholkar-23a4b0292"
+                href="https://www.linkedin.com/in/swaroop-mudholkar-entc6031a"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1 hover:text-emerald-300 transition-colors"
