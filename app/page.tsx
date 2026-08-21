@@ -429,7 +429,7 @@ export default function Home() {
             <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
               <div>
                 <h3 className="text-lg font-semibold">
-                  Refrigerator Door Alarm (Power Electronics Mini Project)
+                  Refrigerator Door Alarm
                 </h3>
                 <p className="mt-1 text-xs uppercase tracking-wide text-emerald-300">
                   LDR • TRANSISTOR • RESISTORS • CAPACITOR • BUZZER
