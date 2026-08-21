@@ -169,7 +169,7 @@ export default function Home() {
               <span className="text-emerald-300">
                 Electronics Engineering Student &amp; Embedded / IoT enthusiast
               </span>{" "}
-              who enjoys turning ideas into working prototypes. From register-level firmware and sensors to real-time object detection and clean web interfaces-I like owning the full flow of a project.
+              who enjoys turning ideas into working prototypes. From register-level firmware and sensors to real-time object detection and clean web interfaces—I like owning the full flow of a project.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
@@ -359,13 +359,13 @@ export default function Home() {
           </div>
         </section>
 
-        {/* PROJECTS - ALL 5 PROJECTS RESTORED & UPDATED */}
+        {/* PROJECTS - UPDATED ORDER & LINKS */}
         <section id="projects" className="space-y-4 scroll-mt-28">
           <h2 className="text-2xl font-semibold">Projects</h2>
 
           <div className="grid gap-4 md:grid-cols-2 md:auto-rows-fr">
             
-            {/* Project 1: Aspergillus Detection */}
+            {/* Project 1: Aspergillus Detection (With GitHub Link) */}
             <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
               <div>
                 <h3 className="text-lg font-semibold">
@@ -378,39 +378,22 @@ export default function Home() {
                   Architected an STM32-based air-quality monitoring telemetry system using UART communication to process multi-sensor environmental data streams in real time. Features early warnings when environmental conditions are ideal for fungal growth. Research paper published in Scitepress ICITSC Conference proceedings (2025).
                 </p>
               </div>
-            </article>
-
-            {/* Project 2: Engine ECU Simulation */}
-            <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
-              <div>
-                <h3 className="text-lg font-semibold">
-                  Engine ECU Simulation &amp; CAN Network Validation
-                </h3>
-                <p className="mt-1 text-xs uppercase tracking-wide text-emerald-300">
-                  VECTOR CANOE • CAPL • CANdb++ • CAN BUS
-                </p>
-                <p className="mt-2 text-sm text-slate-400">
-                  Simulated high-speed CAN networks in Vector CANoe using custom .dbc database files created in CANdb++ for multi-ECU validation. Programmed CAPL scripts to automate Diagnostic Trouble Code (DTC) fault injection and live signal analysis across multi-node topologies.
-                </p>
+              <div className="mt-4 pt-3 border-t border-slate-800/80">
+                <a
+                  href="https://github.com/swaroop6031/Air-Quality-Monitoring-STM32"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-400 hover:text-emerald-300 transition-colors"
+                >
+                  <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.58.11.79-.25.79-.55 0-.27-.01-1.15-.02-2.09-3.22.7-3.9-1.39-3.9-1.39-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.21 1.78 1.21 1.04 1.78 2.73 1.27 3.4.97.11-.76.41-1.27.75-1.56-2.57-.29-5.27-1.29-5.27-5.73 0-1.27.46-2.31 1.21-3.13-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.19a10.9 10.9 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.5 3.17-1.19 3.17-1.19.63 1.59.23 2.76.11 3.05.75.82 1.2 1.86 1.2 3.13 0 4.45-2.71 5.44-5.29 5.73.42.36.8 1.09.8 2.2 0 1.59-.02 2.87-.02 3.26 0 .3.21.66.8.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" />
+                  </svg>
+                  View Repository
+                </a>
               </div>
             </article>
 
-            {/* Project 3: YOLO Object Detection */}
-            <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
-              <div>
-                <h3 className="text-lg font-semibold">
-                  Real-Time Object Detection using YOLOv7 &amp; YOLOv8
-                </h3>
-                <p className="mt-1 text-xs uppercase tracking-wide text-emerald-300">
-                  PYTHON • PYTORCH • OPENCV • EDGE COMPUTER VISION
-                </p>
-                <p className="mt-2 text-sm text-slate-400">
-                  Benchmarked deep learning object detection pipelines (YOLOv7 vs. YOLOv8) using PyTorch and OpenCV. Processed and annotated custom datasets, evaluating mAP, FPS, and detection accuracy to optimize edge inference speed for low-latency applications.
-                </p>
-              </div>
-            </article>
-
-            {/* Project 4: Smart Chair System */}
+            {/* Project 2: Smart Chair System (MOVED TO 2nd) */}
             <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
               <div>
                 <h3 className="text-lg font-semibold">
@@ -425,7 +408,50 @@ export default function Home() {
               </div>
             </article>
 
-            {/* Project 5: Refrigerator Door Alarm (RESTORED) */}
+            {/* Project 3: Engine ECU Simulation */}
+            <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
+              <div>
+                <h3 className="text-lg font-semibold">
+                  Engine ECU Simulation &amp; CAN Network Validation
+                </h3>
+                <p className="mt-1 text-xs uppercase tracking-wide text-emerald-300">
+                  VECTOR CANOE • CAPL • CANdb++ • CAN BUS
+                </p>
+                <p className="mt-2 text-sm text-slate-400">
+                  Simulated high-speed CAN networks in Vector CANoe using custom .dbc database files created in CANdb++ for multi-ECU validation. Programmed CAPL scripts to automate Diagnostic Trouble Code (DTC) fault injection and live signal analysis across multi-node topologies.
+                </p>
+              </div>
+            </article>
+
+            {/* Project 4: YOLO Object Detection (With GitHub Link) */}
+            <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
+              <div>
+                <h3 className="text-lg font-semibold">
+                  Real-Time Object Detection using YOLOv7 &amp; YOLOv8
+                </h3>
+                <p className="mt-1 text-xs uppercase tracking-wide text-emerald-300">
+                  PYTHON • PYTORCH • OPENCV • EDGE COMPUTER VISION
+                </p>
+                <p className="mt-2 text-sm text-slate-400">
+                  Benchmarked deep learning object detection pipelines (YOLOv7 vs. YOLOv8) using PyTorch and OpenCV. Processed and annotated custom datasets, evaluating mAP, FPS, and detection accuracy to optimize edge inference speed for low-latency applications.
+                </p>
+              </div>
+              <div className="mt-4 pt-3 border-t border-slate-800/80">
+                <a
+                  href="https://github.com/swaroop6031/CNN-Smart-Traffic-Signal-Control"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-400 hover:text-emerald-300 transition-colors"
+                >
+                  <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.58.11.79-.25.79-.55 0-.27-.01-1.15-.02-2.09-3.22.7-3.9-1.39-3.9-1.39-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.21 1.78 1.21 1.04 1.78 2.73 1.27 3.4.97.11-.76.41-1.27.75-1.56-2.57-.29-5.27-1.29-5.27-5.73 0-1.27.46-2.31 1.21-3.13-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.19a10.9 10.9 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.5 3.17-1.19 3.17-1.19.63 1.59.23 2.76.11 3.05.75.82 1.2 1.86 1.2 3.13 0 4.45-2.71 5.44-5.29 5.73.42.36.8 1.09.8 2.2 0 1.59-.02 2.87-.02 3.26 0 .3.21.66.8.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z" />
+                  </svg>
+                  View Repository
+                </a>
+              </div>
+            </article>
+
+            {/* Project 5: Refrigerator Door Alarm (TITLE UPDATED & MOVED TO LAST) */}
             <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
               <div>
                 <h3 className="text-lg font-semibold">
