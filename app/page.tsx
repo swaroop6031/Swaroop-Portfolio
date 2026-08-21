@@ -360,12 +360,13 @@ export default function Home() {
         </section>
 
         {/* PROJECTS - UPDATED ORDER & LINKS */}
+        {/* PROJECTS */}
         <section id="projects" className="space-y-4 scroll-mt-28">
           <h2 className="text-2xl font-semibold">Projects</h2>
 
-          <div className="grid gap-4 md:grid-cols-2 md:auto-rows-fr">
+          <div className="grid gap-4 md:grid-cols-2 md:items-stretch">
             
-            {/* Project 1: Aspergillus Detection (With GitHub Link) */}
+            {/* Project 1: Aspergillus Detection */}
             <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
               <div>
                 <h3 className="text-lg font-semibold">
@@ -393,7 +394,7 @@ export default function Home() {
               </div>
             </article>
 
-            {/* Project 2: Smart Chair System (MOVED TO 2nd) */}
+            {/* Project 2: Smart Chair System */}
             <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
               <div>
                 <h3 className="text-lg font-semibold">
@@ -405,6 +406,10 @@ export default function Home() {
                 <p className="mt-2 text-sm text-slate-400">
                   Built an ESP32 edge-monitoring system using multi-sensor fusion (Force Resistors, Ultrasonic, Touch) to process biomechanical posture data in real time. Detects slouching, unbalanced sitting, and backrest distance to trigger timely corrective alerts.
                 </p>
+              </div>
+              <div className="mt-4 pt-3 border-t border-slate-800/20 text-xs text-transparent select-none">
+                {/* Spacer to align heights smoothly with card 1 */}
+                Spacer
               </div>
             </article>
 
@@ -423,7 +428,7 @@ export default function Home() {
               </div>
             </article>
 
-            {/* Project 4: YOLO Object Detection (With GitHub Link) */}
+            {/* Project 4: YOLO Object Detection */}
             <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
               <div>
                 <h3 className="text-lg font-semibold">
@@ -451,7 +456,7 @@ export default function Home() {
               </div>
             </article>
 
-            {/* Project 5: Refrigerator Door Alarm (TITLE UPDATED & MOVED TO LAST) */}
+            {/* Project 5: Refrigerator Door Alarm */}
             <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
               <div>
                 <h3 className="text-lg font-semibold">
