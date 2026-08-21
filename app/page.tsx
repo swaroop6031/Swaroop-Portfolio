@@ -169,7 +169,7 @@ export default function Home() {
               <span className="text-emerald-300">
                 Electronics Engineering Student &amp; Embedded / IoT enthusiast
               </span>{" "}
-              who enjoys turning ideas into working prototypes. From register-level firmware and sensors to real-time object detection and clean web interfaces—I like owning the full flow of a project.
+              who enjoys turning ideas into working prototypes. From register-level firmware and sensors to real-time object detection and clean web interfaces-I like owning the full flow of a project.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
