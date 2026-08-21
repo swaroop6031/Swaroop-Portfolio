@@ -157,19 +157,19 @@ export default function Home() {
           <div className="space-y-6">
             <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-slate-900/80 px-3 py-1 text-[11px] text-emerald-300 shadow-sm">
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
-              Embedded Systems • Automotive Electronics • Computer Vision
+              Electronics • Embedded • IoT • Edge AI
             </div>
             <div>
               <h1 className="mt-1 bg-gradient-to-r from-emerald-300 via-sky-300 to-indigo-300 bg-clip-text text-3xl font-extrabold tracking-tight text-transparent md:text-5xl">
-                Bridging Hardware, Firmware, <br className="hidden md:block" /> & Intelligence.
+                I like making hardware talk <br className="hidden md:block" /> to the digital world.
               </h1>
             </div>
             <p className="text-base text-slate-300 md:text-lg">
               I&apos;m an{" "}
               <span className="text-emerald-300">
-                Electronics &amp; Telecommunication Engineering Student
+                Electronics Engineering Student &amp; Embedded / IoT enthusiast
               </span>{" "}
-              specializing in embedded systems, automotive networks (CAN, Vector CANoe), register-level firmware, and computer vision / edge AI solutions.
+              who enjoys turning ideas into working prototypes. From register-level firmware and sensors to real-time object detection and clean web interfaces—I like owning the full flow of a project.
             </p>
             <div className="flex flex-wrap gap-4">
               <a
@@ -190,7 +190,7 @@ export default function Home() {
               <div className="rounded-2xl border border-slate-800 bg-slate-900/80 px-3 py-2">
                 <p className="text-[11px] text-slate-400">Focus</p>
                 <p className="font-semibold text-emerald-300">
-                  Embedded Systems · Automotive · Edge AI
+                  Embedded Systems · IoT · Edge AI
                 </p>
               </div>
               <div className="rounded-2xl border border-slate-800 bg-slate-900/80 px-3 py-2">
@@ -219,7 +219,7 @@ export default function Home() {
                   </p>
                   <p>Electronics &amp; Telecommunication Engineering · PCCOE</p>
                   <p className="text-emerald-300">
-                    Embedded C • CAN Bus • Vector CANoe • Computer Vision
+                    Embedded Systems • IoT • Edge AI
                   </p>
                 </div>
               </div>
@@ -232,47 +232,55 @@ export default function Home() {
           <h2 className="text-2xl font-semibold">About Me</h2>
           <div className="rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur">
             <p className="text-slate-300 leading-relaxed">
-              I am an engineering student deeply passionate about low-level microcontrollers, automotive network validation, and real-world system integration. I love working close to hardware—from writing register-level firmware drivers in Embedded C to simulating complex automotive CAN networks and executing edge computer vision pipelines.
+              I am an engineering student passionate about embedded systems, electronics, and real-world problem solving. I enjoy designing hardware projects, coding microcontrollers, writing register-level firmware drivers, and learning new technologies that bridge the gap between hardware and software.
             </p>
             <p className="mt-3 text-slate-300 leading-relaxed">
-              Currently pursuing a <span className="text-slate-100">B.Tech in Electronics and Telecommunication Engineering (2023-2027)</span> at <span className="text-slate-100">Pimpri Chinchwad College of Engineering (PCCOE), Pune</span> with a Multi-Disciplinary Minor (MDM) in Generative AI.
+              Currently pursuing a <span className="text-slate-100">B.Tech in Electronics and Telecommunication Engineering (2023-2027)</span> at <span className="text-slate-100">Pimpri Chinchwad College of Engineering (PCCOE), Nigdi, Pune</span> with a Multi-Disciplinary Minor (MDM) in Generative AI.
             </p>
             <p className="mt-3 text-slate-300 leading-relaxed">
-              My hands-on experience spans an industrial internship at <span className="text-slate-100">Cotmac Electronics Pvt. Ltd.</span> (PLC panel engineering & HIL testing), serving as <span className="text-slate-100">Documentation Team Lead</span> at PCCOE EnTC Internship Cell, publishing peer-reviewed research, and participating in national hackathons like SIH 2024 and E-Yantra 2025.
+              I completed a 4-week internship at <span className="text-slate-100">Cotmac Electronics Pvt. Ltd., Bhosari MIDC, Pune</span>, and have participated in <span className="text-slate-100">Smart India Hackathon (SIH) 2024</span>, <span className="text-slate-100">IETE National Level Project Competition</span>, and <span className="text-slate-100">E-Yantra 2025</span>. I am also the <span className="text-slate-100">Documentation Team Lead at PCCOE EnTC Internship Cell</span>.
             </p>
           </div>
         </section>
 
         {/* EXPERIENCE */}
         <section id="experience" className="space-y-4 scroll-mt-28">
-          <h2 className="text-2xl font-semibold">Experience &amp; Leadership</h2>
+          <h2 className="text-2xl font-semibold">Experience &amp; Achievements</h2>
           <div className="grid gap-4 md:grid-cols-2 md:auto-rows-fr">
             {[
               {
-                title: "PLC Panel Design & Testing Intern",
-                subtitle: "Cotmac Electronics Pvt. Ltd., Bhosari MIDC, Pune",
+                title: "Intern - Cotmac Electronics Pvt. Ltd.",
+                subtitle: "Bhosari MIDC, Pune",
                 time: "June 2025 - July 2025",
                 bullets: [
-                  "Engineered industrial PLC panel schematics and wiring layouts in E-Plan Electric P8, ensuring 100% compliance with control automation standards.",
+                  "Engineered industrial PLC panel schematics and wiring layouts in E-Plan Electric P8, ensuring compliance with control automation standards.",
                   "Conducted hardware-in-the-loop (HIL) signal verification, point-to-point wiring checks, and fault diagnostics across live industrial panels."
                 ]
               },
               {
-                title: "Documentation Team Lead",
-                subtitle: "PCCOE EnTC Internship Cell, Pune",
+                title: "Documentation Lead - PCCOE EnTC Internship Cell",
+                subtitle: "PCCOE, Nigdi, Pune",
                 time: "2025 - Present",
                 bullets: [
-                  "Directed a student team managing technical documentation, reporting, and candidate tracking for 100+ candidates.",
+                  "Directed a student team managing technical documentation, reporting, and tracking data for 100+ candidates.",
                   "Coordinated with departmental faculty and industry leads to streamline internship drives and placement workflows."
                 ]
               },
               {
-                title: "Competitions & Research Initiatives",
-                subtitle: "SIH, IETE & E-Yantra 2025",
+                title: "Project Competitions & Robotics Events",
+                subtitle: "IETE Project Competition & E-Yantra 2025",
                 time: "2024 - 2025",
                 bullets: [
-                  "Published research in Scitepress ICITSC 2025 conference proceedings.",
-                  "Participated in Smart India Hackathon (SIH) 2024, IETE National Level Project Competition, and E-Yantra Robotics 2025."
+                  "Presented hardware and embedded projects at national-level platforms, strengthening my interest in robotics and embedded systems.",
+                  "Published research in Scitepress ICITSC 2025 conference proceedings."
+                ]
+              },
+              {
+                title: "Participant - Smart India Hackathon (SIH) 2024",
+                subtitle: "National Level Hackathon",
+                time: "2024",
+                bullets: [
+                  "Worked in a team to design and propose solutions for a real-world problem statement, focusing on innovation, feasibility, and implementation strategy."
                 ]
               }
             ].map((item) => (
@@ -351,57 +359,84 @@ export default function Home() {
           </div>
         </section>
 
-        {/* PROJECTS */}
+        {/* PROJECTS - ALL 5 PROJECTS RESTORED & UPDATED */}
         <section id="projects" className="space-y-4 scroll-mt-28">
-          <h2 className="text-2xl font-semibold">Key Projects</h2>
+          <h2 className="text-2xl font-semibold">Projects</h2>
 
           <div className="grid gap-4 md:grid-cols-2 md:auto-rows-fr">
             
-            {/* ECU Simulation */}
+            {/* Project 1: Aspergillus Detection */}
             <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
               <div>
-                <h3 className="text-lg font-semibold">Engine ECU Simulation &amp; CAN Network Validation</h3>
-                <p className="mt-1 text-xs uppercase tracking-wide text-emerald-300">Vector CANoe • CAPL • CANdb++ • CAN Bus</p>
-                <ul className="mt-3 list-disc list-inside text-xs text-slate-400 space-y-1">
-                  <li>Simulated high-speed CAN networks in Vector CANoe using custom .dbc database files for multi-ECU validation.</li>
-                  <li>Developed CAPL scripts to automate Diagnostic Trouble Code (DTC) fault injection and live signal analysis.</li>
-                </ul>
+                <h3 className="text-lg font-semibold">
+                  Proactive Detection of Aspergillus Growth Through Indoor Air Monitoring
+                </h3>
+                <p className="mt-1 text-xs uppercase tracking-wide text-emerald-300">
+                  STM32 • UART • DHT22 • MQ135 • LCD DISPLAY
+                </p>
+                <p className="mt-2 text-sm text-slate-400">
+                  Architected an STM32-based air-quality monitoring telemetry system using UART communication to process multi-sensor environmental data streams in real time. Features early warnings when environmental conditions are ideal for fungal growth. Research paper published in Scitepress ICITSC Conference proceedings (2025).
+                </p>
               </div>
             </article>
 
-            {/* Aspergillus Telemetry */}
+            {/* Project 2: Engine ECU Simulation */}
             <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
               <div>
-                <h3 className="text-lg font-semibold">Proactive Detection of Aspergillus Growth (Indoor Air Monitoring)</h3>
-                <p className="mt-1 text-xs uppercase tracking-wide text-emerald-300">STM32 • UART • DHT22 • MQ135 • LCD</p>
-                <ul className="mt-3 list-disc list-inside text-xs text-slate-400 space-y-1">
-                  <li>Architected an STM32-based air-quality monitoring telemetry system with multi-sensor UART data processing for real-time alerts.</li>
-                  <li>Authored and presented peer-reviewed research, published in Scitepress International ICITSC Conference proceedings (2025).</li>
-                </ul>
+                <h3 className="text-lg font-semibold">
+                  Engine ECU Simulation &amp; CAN Network Validation
+                </h3>
+                <p className="mt-1 text-xs uppercase tracking-wide text-emerald-300">
+                  VECTOR CANOE • CAPL • CANdb++ • CAN BUS
+                </p>
+                <p className="mt-2 text-sm text-slate-400">
+                  Simulated high-speed CAN networks in Vector CANoe using custom .dbc database files created in CANdb++ for multi-ECU validation. Programmed CAPL scripts to automate Diagnostic Trouble Code (DTC) fault injection and live signal analysis across multi-node topologies.
+                </p>
               </div>
             </article>
 
-            {/* YOLO Detection */}
+            {/* Project 3: YOLO Object Detection */}
             <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
               <div>
-                <h3 className="text-lg font-semibold">Real-Time Object Detection using YOLOv7 &amp; YOLOv8</h3>
-                <p className="mt-1 text-xs uppercase tracking-wide text-emerald-300">Python • PyTorch • OpenCV • Edge Computer Vision</p>
-                <ul className="mt-3 list-disc list-inside text-xs text-slate-400 space-y-1">
-                  <li>Benchmarked YOLOv7 vs YOLOv8 models on PyTorch to optimize inference speed and accuracy for edge deployment.</li>
-                  <li>Processed and annotated custom datasets, evaluating mAP, FPS, and detection accuracy across video feeds.</li>
-                </ul>
+                <h3 className="text-lg font-semibold">
+                  Real-Time Object Detection using YOLOv7 &amp; YOLOv8
+                </h3>
+                <p className="mt-1 text-xs uppercase tracking-wide text-emerald-300">
+                  PYTHON • PYTORCH • OPENCV • EDGE COMPUTER VISION
+                </p>
+                <p className="mt-2 text-sm text-slate-400">
+                  Benchmarked deep learning object detection pipelines (YOLOv7 vs. YOLOv8) using PyTorch and OpenCV. Processed and annotated custom datasets, evaluating mAP, FPS, and detection accuracy to optimize edge inference speed for low-latency applications.
+                </p>
               </div>
             </article>
 
-            {/* Smart Chair */}
+            {/* Project 4: Smart Chair System */}
             <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
               <div>
-                <h3 className="text-lg font-semibold">Smart Chair System for Posture Monitoring</h3>
-                <p className="mt-1 text-xs uppercase tracking-wide text-emerald-300">ESP32 • Force Resistors • Ultrasonic Sensor • Touch Sensor</p>
-                <ul className="mt-3 list-disc list-inside text-xs text-slate-400 space-y-1">
-                  <li>Built an ESP32 edge-monitoring system using multi-sensor fusion to process posture data and trigger real-time feedback.</li>
-                  <li>Calibrated sensor thresholds to accurately distinguish proper posture from slouching.</li>
-                </ul>
+                <h3 className="text-lg font-semibold">
+                  Smart Chair System for Real-Time Posture Monitoring and Wellness Reminder
+                </h3>
+                <p className="mt-1 text-xs uppercase tracking-wide text-emerald-300">
+                  ESP32 • FORCE RESISTOR SENSORS • ULTRASONIC SENSOR • TOUCH SENSOR
+                </p>
+                <p className="mt-2 text-sm text-slate-400">
+                  Built an ESP32 edge-monitoring system using multi-sensor fusion (Force Resistors, Ultrasonic, Touch) to process biomechanical posture data in real time. Detects slouching, unbalanced sitting, and backrest distance to trigger timely corrective alerts.
+                </p>
+              </div>
+            </article>
+
+            {/* Project 5: Refrigerator Door Alarm (RESTORED) */}
+            <article className="flex h-full flex-col justify-between rounded-3xl border border-slate-800 bg-slate-900/70 p-5 backdrop-blur transition-transform duration-200 hover:-translate-y-1 hover:border-emerald-500/70 hover:bg-slate-900/90">
+              <div>
+                <h3 className="text-lg font-semibold">
+                  Refrigerator Door Alarm (Power Electronics Mini Project)
+                </h3>
+                <p className="mt-1 text-xs uppercase tracking-wide text-emerald-300">
+                  LDR • TRANSISTOR • RESISTORS • CAPACITOR • BUZZER
+                </p>
+                <p className="mt-2 text-sm text-slate-400">
+                  Built a simple yet effective timing circuit that detects when the fridge door remains open for too long. An LDR senses internal light when open, and after a ~1 minute delay, activates a buzzer alert. Strengthened power electronics and component selection basics.
+                </p>
               </div>
             </article>
 
@@ -443,6 +478,12 @@ export default function Home() {
                 title: "12th Science (HSC)",
                 place: "S. B. Patil College of Science and Commerce, Ravet, Pune",
                 detail: "Focus on Mathematics & Physics"
+              },
+              {
+                time: "2021",
+                title: "10th (CBSE)",
+                place: "S. B. Patil Public School, Ravet, Pune",
+                detail: "Secondary Education"
               }
             ].map((item) => (
               <div
